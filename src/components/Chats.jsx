@@ -32,9 +32,9 @@ const Chats = () => {
     <div className='chats'>
         {/* <img src="" alt="" /> */}
         {arr.map((msg,index)=>(
-            <div key={index} className='chat-message'>
-                <hr />
-                <div className='chat-initial'>{msg.initial}</div>
+            <div key={index} className='chat-message flex gap-4 border border-solid bg-custom-leaf-green text-custom-green'>
+                
+                <div className='chat-initial w-7'>{msg.initial}</div>
                 <div className='chat-content'>
                     <div className='chat-name'>{msg.name}</div>
                     <div className='chat-msg'>{msg.msg}</div>

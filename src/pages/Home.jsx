@@ -5,9 +5,10 @@ import Chat from '../components/Chat'
 import Message from '../components/Message'
 const Home = () => {
   return (
-    <div class="home">
-        <div className="home-container">
+    <div class="home border border-solid border-4 border-custom-green h-full">
+        <div className="home-container flex">
             <Sidebar/>
+
             <Chat/>
             
         </div>
